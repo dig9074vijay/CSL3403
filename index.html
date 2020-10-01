@@ -1,141 +1,60 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            FLEX
+        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet"/>
+        <style>
+             body{
+            margin: 10px;
+            background-color:	#DCDCDC;
+        }
+            .cont{
+                display : flex;
+                flex-wrap : wrap;
+                justify-content : center;
+            }
+            img{
+                transition: all 1s;
+            }
+            img:hover{
+                transform: scale(1.2);
+            }
+            body{
+                font-family: 'Roboto Slab', serif;
+            }
+            h1{
+			text-align: center;
+			font-family: 'Roboto Slab',serif;
+			margin: auto;
+			padding: 10px;
+			overflow: hidden;
+			background-color: rgb(66, 52, 14);
+			color: #fff;
+        }
+            
+        </style>
+    </head>
+    <body>
+        <h1><center>Breaking Bad</center></h1>
+        <br>
+        <hr>
+        <Marquee>Digvijay Srivastava 1906188</Marquee>
+        <hr>
+        <br>
+        <div class="cont">
+        <img src="ww.jpg" alt="Walter White">
+        <img src="skyler.webp" alt="Walter White">
+        <img src="walterjr.jpg" alt="Walter White">
+        <img src="jesse.jpg" alt="Walter White">
+        <img src="hank.jpg" alt="Walter White">
+        <img src="gustavo.jpg" alt="Walter White">
+        <img src="saul.jpg" alt="Walter White">
+        <img src="jane.jpg" alt="Walter White">
+        <img src="badger.jpg" alt="Walter White">
+        <img src="hector.jpg" alt="Walter White">
+        </div>
+    </body>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
-    <title>Bootstrap</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0a0e04;">
-        <a class="navbar-brand" href="#" style="color: rgb(214, 189, 189);"><b>The Walking Dead</b></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="https://www.amc.com/" target="_blank" style="color: rgb(214, 189, 189);">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active ">
-              <a class="nav-link" href="https://www.amc.com/shows/the-walking-dead--119" target="_blank" style="color: rgb(214, 189, 189);">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" style="color: rgb(214, 189, 189);" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Seasons
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="https://www.amc.com/shows/the-walking-dead/seasons/season-1--405" target="_blank">Season 1</a>
-                <a class="dropdown-item" href="https://www.amc.com/shows/the-walking-dead/seasons/season-2--406" target="_blank">Season 2</a>
-                <a class="dropdown-item" href="https://www.amc.com/shows/the-walking-dead/seasons/season-3--407" target="_blank">Season 3</a>
-                <a class="dropdown-item" href="https://www.amc.com/shows/the-walking-dead/seasons/season-4--408" target="_blank">Season 4</a>
-                <a class="dropdown-item" href="https://www.amc.com/shows/the-walking-dead/seasons/season-5--409" target="_blank">Season 5</a>
-                <a class="dropdown-item" href="https://www.amc.com/shows/the-walking-dead/seasons/season-6--410" target="_blank">Season 6</a>
-                <a class="dropdown-item" href="https://www.amc.com/shows/the-walking-dead/seasons/season-7--411" target="_blank">Season 7</a>
-                <a class="dropdown-item" href="https://www.amc.com/shows/the-walking-dead/seasons/season-8--412" target="_blank">Season 8</a>
-                <a class="dropdown-item" href="https://www.amc.com/shows/the-walking-dead/seasons/season-9--413" target="_blank">Season 9</a>
-                <a class="dropdown-item" href="https://www.amc.com/shows/the-walking-dead/seasons/season-10--404" target="_blank">Season 10</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="https://www.amc.com/shows/fear-the-walking-dead--39 target="_blank"">Fear The Walking Dead</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="https://thewalkingdeadshop.amc.com/" tabindex="-1" aria-disabled="true" style="color: rgb(214, 189, 189);">TWD Shop <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-box-arrow-up-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-              </svg></a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="background-color:rgb(214, 189, 189);">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="https://www.google.co.in/" target="_blank">Search</a></button>
-          </form>
-        </div>
-      </nav>
-      <div id="carouselExampleFade m" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="carl.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="morgan.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="rick.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="daryl.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="carol.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <div class="jumbotron">
-        <img src="twd.jpg" class="d-block w-100" alt="...">
-      </div>
-    
-      <div class="jumbotron" style="color: rgb(214, 189, 189);">
-        <h1 class="display-4"><center><b>The Walking Dead</b></center></h1>
-        <p class="lead text-center">The Walking Dead is an American post-apocalyptic horror television series based on the comic book series of the same name by Robert Kirkman, Tony Moore, and Charlie Adlard. The series features a large ensemble cast as survivors of a zombie apocalypse, trying to stay alive under near-constant threat of attacks from zombies, colloquially known as "walkers". However, with the fall of humanity, these survivors also face conflict from other living survivors who have formed groups and communities with their own sets of laws and morals, often leading to hostile conflict between the human communities.</p>
-        <hr class="my-4">
-        <p class="text-center">The Walking Dead will conclude in 2022 after the eleventh season commences airing in 2021.</p>
-        <!-- Button trigger modal -->
-<center><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
-    Designed BY
-  </button></center>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Developer</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          Digvijay Srivastava
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Understood</button>
-        </div>
-      </div>
-    </div>
-  </div><br>
-        <center><a class="btn btn-primary btn-lg" href="https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)" target="_blank" role="button">Learn more</a></center>
-      </div>
-        <div class="cont" style="background-color: #0a0e04;">
-        <img class="im" src="ww.jpg" alt="Walter White">
-        <img class="im" src="walterjr.jpg" alt="Walter White">
-        <img class="im" src="jesse.jpg" alt="Walter White">
-        <img class="im" src="hank.jpg" alt="Walter White">
-        <img class="im" src="gustavo.jpg" alt="Walter White">
-        <img class="im" src="saul.jpg" alt="Walter White">
-        <img class="im" src="jane.jpg" alt="Walter White">
-        <Marquee style="color:blanchedalmond; font-size:large;">Digvijay Srivastava 1906188</Marquee>
-        </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
 </html>
