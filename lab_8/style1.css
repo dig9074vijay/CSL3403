@@ -24,7 +24,6 @@ div{
 button:hover{
     animation-name: btn;
     animation-duration: 4s;
-    animation-iteration-count: infinite;
 }
 @keyframes btn
 {
