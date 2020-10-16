@@ -1,0 +1,48 @@
+body{
+    margin: 10px;
+    background-color:	#DCDCDC;
+}
+    .cont{
+        display : flex;
+        flex-wrap : wrap;
+        justify-content : center;
+    }
+    img{
+        width: 450px;
+        height: 350px;
+        margin: 10px;
+        transition: all 1s;
+        box-shadow: 4px 4px 4px #883885;
+    }
+    img:hover{
+        transform: scale(1.5) rotate(360deg);
+    
+    }
+    body{
+        font-family: 'Roboto Slab', serif;
+    }
+    h1{
+    text-align: center;
+    font-family: 'Roboto Slab',serif;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgb(66, 52, 14);
+    color: #fff;
+   
+}
+h1:hover{
+    animation-name: bb;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes bb
+{
+    0%{background-color: red;}
+    25%{background-color: orange;}
+    50%{background-color: gray;}
+    100%{background-color: green;}
+    from{font-size: medium;}
+    to{font-size: xx-large;}
+}
