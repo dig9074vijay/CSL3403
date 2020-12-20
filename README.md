@@ -1,2 +1,2 @@
 # CSL3403
-Contains the record files from LAB - 04
+Contains all the record files(web projects) from LAB - 04 of Web Technology Lab.
